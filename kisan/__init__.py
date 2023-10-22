@@ -90,7 +90,7 @@ if Config.BOT_TOKEN:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://te.legra.ph/file/96c4adbe054e8b4d2645d.jpg",
-                              caption=f"Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me",
+                              caption=f"Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.\n\nJoin my news channel to get information on all the latest updates.\n\nUse the /privacy command to view the privacy policy, and interact with your data.",
 
 reply_markup=InlineKeyboardMarkup(
             [
