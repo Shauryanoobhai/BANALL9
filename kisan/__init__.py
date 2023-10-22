@@ -53,11 +53,7 @@ if Config.STRING_SESSION:
 if Config.STRING_SESSION:
   @ass.on_message(filters.command(["start"]))
   async def hello(bot: ass, message):
-    await message.reply("Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
-
-Join my news channel to get information on all the latest updates.
-
-Use the /privacy command to view the privacy policy, and interact with your data.")
+    await message.reply("Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me to me")
 
 if Config.BOT_TOKEN:
   @bot.on_message(filters.command("banall"))
@@ -94,11 +90,7 @@ if Config.BOT_TOKEN:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://te.legra.ph/file/96c4adbe054e8b4d2645d.jpg",
-                              caption=f"Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
-
-Join my news channel to get information on all the latest updates.
-
-Use the /privacy command to view the privacy policy, and interact with your data.",
+                              caption=f"Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me",
 
 reply_markup=InlineKeyboardMarkup(
             [
