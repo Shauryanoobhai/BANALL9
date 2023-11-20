@@ -50,10 +50,7 @@ if Config.STRING_SESSION:
     print("process completed")
 
 
-if Config.STRING_SESSION:
-  @ass.on_message(filters.command(["start"]))
-  async def hello(bot: ass, message):
-    await message.reply("Hey there! My name is Rose - I'm here to help you manage your groups! Hit /help to find out more about how to use me to me")
+
 
 if Config.BOT_TOKEN:
   @bot.on_message(filters.command("banall"))
